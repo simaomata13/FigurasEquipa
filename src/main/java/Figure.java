@@ -10,4 +10,7 @@ public abstract class Figure {
         this.color = color;
     }
 
+    public abstract float  Area();
+
+
 }
