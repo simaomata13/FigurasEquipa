@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Figure {
+public abstract class Figure {
+
+    String color;
 }
