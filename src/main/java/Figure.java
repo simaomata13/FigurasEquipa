@@ -1,12 +1,17 @@
+import java.awt.*;
+
 public abstract class Figure {
 
-    String color;
+    private Color color;
 
 
-    public String getColor() {
+    public Color getColor() {
         return color;
     }
-    public void setColor(String color) {
+    public void setColor(Color color) {
         this.color = color;
     }
+
+
+    public abstract double perimeter();
 }
