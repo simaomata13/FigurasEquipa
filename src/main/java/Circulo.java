@@ -1,7 +1,10 @@
 import java.awt.*;
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> de017fcdc9cd5b9842b611aafb19de97b5461f7f
 
 public class Circulo extends Figure {
     private Point center;
