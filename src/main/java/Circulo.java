@@ -7,7 +7,7 @@ public class Circulo {
 =======
 >>>>>>> ca2e3e63e811adeba769ee41b7926dc956c87d64
 
-public class Circulo implements Figure {
+public class Circulo extends Figure {
     private Point center;
     private double raio;
 
