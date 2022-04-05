@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public class Circulo {
+public class Circulo implements Figure {
     private Point center;
     private double raio;
 
@@ -11,5 +11,16 @@ public class Circulo {
 
     public void expand (double Scalefactor){
         this.
+    }
+
+
+    @Override
+    public float Area() {
+        return 0;
+    }
+
+    @Override
+    public double perimeter() {
+        return 0;
     }
 }

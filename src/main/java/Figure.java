@@ -15,8 +15,6 @@ public abstract class Figure {
 
     public abstract float  Area();
 
-
-
     public abstract double perimeter();
 
 }
