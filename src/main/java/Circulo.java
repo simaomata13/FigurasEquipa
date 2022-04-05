@@ -1,11 +1,7 @@
 import java.awt.*;
-<<<<<<< HEAD
 
-public class Circulo {
-    private double raio;
-    private Point centro;
-=======
->>>>>>> ca2e3e63e811adeba769ee41b7926dc956c87d64
+
+
 
 public class Circulo extends Figure {
     private Point center;
@@ -17,17 +13,17 @@ public class Circulo extends Figure {
     }
 
     public void expand (double Scalefactor){
-        this.
+        raio = raio * Scalefactor;
     }
 
 
     @Override
-    public float Area() {
-        return 0;
+    public double Area() {
+        return (float) (Math.PI * raio * raio);
     }
 
     @Override
     public double perimeter() {
-        return 0;
+        return 2 * Math.PI * raio;
     }
 }
