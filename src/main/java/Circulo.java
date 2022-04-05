@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public class Circulo implements Figure {
+public class Circulo extends Figure {
     private Point center;
     private double raio;
 
