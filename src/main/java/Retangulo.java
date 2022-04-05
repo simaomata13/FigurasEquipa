@@ -12,7 +12,7 @@ public class Retangulo extends Figure {
 
     @Override
     public float Area() {
-        return (float)Math.sqrt(Math.pow((bottomRight.x-upperLeft.x),2) + Math.pow((bottomRight.y-upperLeft.y), 2));
+        return (bottomRight.x-upperLeft.x) + (bottomRight.y-upperLeft.y);
     }
 
     @Override
