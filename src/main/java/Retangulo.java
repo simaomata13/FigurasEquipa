@@ -11,12 +11,12 @@ public class Retangulo extends Figure {
     }
 
     @Override
-    public float Area() {
-        return (bottomRight.x-upperLeft.x) + (bottomRight.y-upperLeft.y);
+    public double Area() {
+        return (bottomRight.x - upperLeft.x) * (upperLeft.y - bottomRight.y);
     }
 
     @Override
     public double perimeter() {
-        return 0;
+        return 2 * (bottomRight.x - upperLeft.x) + (upperLeft.y - bottomRight.y);
     }
 }
