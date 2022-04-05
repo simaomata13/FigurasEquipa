@@ -1,10 +1,15 @@
+import java.awt.*;
+
 public class Circulo {
-    private float raio;
+    private Point center;
+    private double raio;
 
-    public float Area(){
-        return  Math.PI * (Math.pow(raio,2))
+    public Circulo(Point center, double raio){
+        this.center=center;
+        this.raio=raio;
+    }
 
-
-
+    public void expand (double Scalefactor){
+        this.
     }
 }
